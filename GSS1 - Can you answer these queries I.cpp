@@ -3,7 +3,7 @@
 using namespace std;
 
 struct treenode{
-    int data,data1,left,right,flag;
+    int data,data1,left,right,flag;//data storing ans of a particular range
 };
 
 treenode segtree[400010];
