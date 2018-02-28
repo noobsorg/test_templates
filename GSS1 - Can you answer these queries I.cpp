@@ -3,7 +3,9 @@
 using namespace std;
 
 struct treenode{
-    int data,data1,left,right,flag;
+    int data,data1,left,right,flag;//data is represent ans of that perticular node and data1 is represent 
+	//sum of all at in that range elements and flag is used in quary when we are going to try an queary 
+	//which is not exist
 };
 
 treenode segtree[400010];
